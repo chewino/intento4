@@ -3,12 +3,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyAW9YebukoxNv7LUbNBdI6NhnoXtXznEas",
+  authDomain: "completo-bb90a.firebaseapp.com",
+  projectId: "completo-bb90a",
+  storageBucket: "completo-bb90a.firebasestorage.app",
+  messagingSenderId: "998868189621",
+  appId: "1:998868189621:web:eba447ccc02ef2bbc199fc",
+  measurementId: "G-C5QGP70E8S"
 };
 
 const app = initializeApp(firebaseConfig);
